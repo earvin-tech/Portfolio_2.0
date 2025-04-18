@@ -1,7 +1,24 @@
+import React from 'react';
+
+import About from './components/About';
+import Background from './components/Background';
+import Contact from './components/ContactSection';
+import Header from './components/Header';
+import { HomeTitles } from './components/HomeTitle';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">Tailwind + Vite + React 🚀</h1>
-    </div>
+    <>
+    <Header />
+    <Background>
+      <HomeTitles />
+      <Skills />
+    </Background>
+    <Projects />
+    <About />
+    <Contact />
+    </>
   );
 }
