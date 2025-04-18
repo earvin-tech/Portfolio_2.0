@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# local env files
+.env
+.env.*.local
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lock files (if you're using one package manager, ignore the others)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
