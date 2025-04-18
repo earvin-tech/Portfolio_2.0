@@ -1,7 +1,8 @@
 export default function Background({ children }) {
   return (
     <div
-      className="relative w-full min-h-screen bg-cover bg-center flex items-center justify-center"
+      className="relative w-full min-h-screen bg-cover bg-center flex items-start justify-center pt-28
+"
       style={{
         backgroundImage: "url('/site_images/portfolioBackground.png')",
         backgroundRepeat: 'no-repeat',
