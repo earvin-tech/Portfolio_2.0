@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import { useState } from "react";
 
 export default function Header() {
@@ -6,23 +5,26 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-20 bg-black/80 backdrop-blur text-white shadow-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
+      <div className="w-full flex justify-between items-center px-2 sm:px-4 py-3">
         <h1 className="text-2xl font-bold font-orbitron">Earvin Tumpao</h1>
 
-        <nav className="hidden md:flex gap-6 text-sm uppercase">
-          <a href="#home" className="hover:text-blue-400">Home</a>
-          <a href="#projects" className="hover:text-blue-400">Projects</a>
-          <a href="#about" className="hover:text-blue-400">About</a>
-          <a href="#contact" className="hover:text-blue-400">Contact</a>
-        </nav>
+        <div className="flex items-center">
+          {/* Desktop nav */}
+          <nav className="hidden md:flex gap-6 text-sm uppercase">
+            <a href="#home" className="hover:text-blue-400">Home</a>
+            <a href="#projects" className="hover:text-blue-400">Projects</a>
+            <a href="#about" className="hover:text-blue-400">About</a>
+            <a href="#contact" className="hover:text-blue-400">Contact</a>
+          </nav>
 
-        {/* Hamburger for mobile */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-xl focus:outline-none"
-        >
-          ☰
-        </button>
+          {/* Hamburger for mobile */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden text-xl ml-4"
+          >
+            ☰
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
