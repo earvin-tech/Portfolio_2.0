@@ -1,21 +1,22 @@
 // src/components/Skills.jsx
 const skills = [
-    { name: "HTML5", icon: "🟧" },
-    { name: "CSS3", icon: "🟦" },
-    { name: "JavaScript", icon: "🟨" },
-    { name: "TypeScript", icon: "🔷" },
-    { name: "React", icon: "⚛️" },
-    { name: "Tailwind CSS", icon: "🌬️" },
-    { name: "Node.js", icon: "🟩" },
-    { name: "Express", icon: "🚂" },
-    { name: "MongoDB", icon: "🍃" },
-    { name: "Python", icon: "🐍" },
-    { name: "Flask", icon: "🧪" },
-    { name: "Docker", icon: "🐳" },
-    { name: "Git", icon: "🔧" },
-    { name: "Vite", icon: "⚡" },
-    { name: "GitHub", icon: "🐱" }, // Cute cat emoji
-  ];
+  { name: "HTML5", icon: "🟧" },
+  { name: "CSS3", icon: "🟦" },
+  { name: "JavaScript", icon: "🟨" },
+  { name: "TypeScript", icon: "🔷" },
+  { name: "React", icon: "⚛️" },
+  { name: "Tailwind CSS", icon: "🌬️" },
+  { name: "PostgreSQL", icon: "🐘" }, // Elephant emoji = Postgres mascot
+  { name: "Express", icon: "🚂" },
+  { name: "MongoDB", icon: "🍃" },
+  { name: "Python", icon: "🐍" },
+  { name: "Flask", icon: "🧪" },
+  { name: "Docker", icon: "🐳" },
+  { name: "Git", icon: "🔧" },
+  { name: "Vite", icon: "⚡" },
+  { name: "GitHub", icon: "🐱" },
+];
+
   
   
   

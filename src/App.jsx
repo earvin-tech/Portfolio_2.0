@@ -1,4 +1,6 @@
+import About from './components/About';
 import Background from './components/Background';
+import Contact from './components/ContactSection';
 import Header from './components/Header';
 import { HomeTitles } from './components/HomeTitle';
 import Projects from './components/Projects';
@@ -12,8 +14,9 @@ export default function App() {
       <HomeTitles />
       <Skills />
     </Background>
-
     <Projects />
+    <About />
+    <Contact />
     </>
   );
 }
