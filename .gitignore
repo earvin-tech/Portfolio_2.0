@@ -1,18 +1,14 @@
 # dependencies
 /node_modules
 
-# production
+# build output
 /dist
 
 # local env files
 .env
 .env.*.local
 
-# system files
-.DS_Store
-Thumbs.db
-
-# IDEs / Editors
+# IDE/editor settings
 .vscode/
 .idea/
 *.sublime-project
@@ -24,7 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# lock files (if you're using one package manager, ignore the others)
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db

@@ -1,7 +1,10 @@
+import Background from './components/Background';
+
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">Tailwind + Vite + React 🚀</h1>
-    </div>
+    <Background>
+      <h1 className="text-5xl font-extrabold mb-4">Welcome to E.T. Project</h1>
+      <p className="text-xl">This is a starter template built with Vite, React, and Tailwind CSS.</p>
+    </Background>
   );
 }
