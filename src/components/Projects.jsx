@@ -1,3 +1,5 @@
+import React from 'react';
+
 // src/components/Projects.jsx
 const projects = [
     {

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export function HomeTitles() {
     return(
         <div className="flex flex-col items-center">

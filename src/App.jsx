@@ -1,3 +1,5 @@
+import React from 'react';
+
 import About from './components/About';
 import Background from './components/Background';
 import Contact from './components/ContactSection';

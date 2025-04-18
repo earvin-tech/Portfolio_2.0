@@ -1,3 +1,5 @@
+import React from 'react';
+
 // src/components/Skills.jsx
 const skills = [
   { name: "HTML5", icon: "🟧" },
