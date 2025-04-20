@@ -7,6 +7,7 @@ import Header from './components/Header';
 import { HomeTitles } from './components/HomeTitle';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import ContactForm from './components/ContactForm';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
     <Projects />
     <About />
     <Contact />
+    <ContactForm />
     </>
   );
 }

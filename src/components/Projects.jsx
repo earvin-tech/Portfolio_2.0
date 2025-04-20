@@ -3,22 +3,22 @@ import React from 'react';
 // src/components/Projects.jsx
 const projects = [
     {
-      title: "Task Manager API",
+      title: "Task Manager API [IN PROGRESS - TO BE DEPLOYED]",
       description: "A backend API for managing tasks with deadlines and tags, built with Express and MongoDB.",
       link: "#",
-      code: "#"
+      code: "https://github.com/earvin-tech/task_manager"
     },
     {
-      title: "Miracle Café Website",
+      title: "Miracle Café Website [IN PROGRESS]",
       description: "Responsive café website built with Vite, React, and Tailwind. Includes Google Maps and carousel.",
-      link: "#",
-      code: "#"
+      link: "https://miraclecafekew.netlify.app/",
+      code: "https://github.com/earvin-tech/miracle_cafe"
     },
     {
       title: "Fitness API",
       description: "An API that allows you to track workouts, built with Flask.",
-      link: "#",
-      code: "#"
+      link: "https://fitness-api-ky6u.onrender.com",
+      code: "https://github.com/earvin-tech/Book_Application"
     }
   ];
   
