@@ -34,8 +34,8 @@ const projects = [
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-sm text-gray-300 mb-4">{project.description}</p>
                 <div className="flex gap-4">
-                  <a href={project.link} className="text-blue-400 hover:underline">Live</a>
-                  <a href={project.code} className="text-blue-400 hover:underline">Code</a>
+                  <a href={project.link} target="_blank" className="text-blue-400 hover:underline">Live</a>
+                  <a href={project.code} target="_blank" className="text-blue-400 hover:underline">Code</a>
                 </div>
               </div>
             ))}
