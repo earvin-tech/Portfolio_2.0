@@ -20,7 +20,7 @@ export default function ContactForm() {
     setStatus("Sending...");
 
     try {
-      await fetch("https://portfolio-backend-hrvd.onrender.com/api/contact", {
+      await fetch("https://portfolio-backend-396f.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
