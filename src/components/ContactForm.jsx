@@ -20,14 +20,15 @@ export default function ContactForm() {
     setStatus("Sending...");
 
     try {
-      await fetch("https://portfolio-backend-396f.onrender.com/api/contact", {
+      const response = await fetch("https://portfolio-backend-396f.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
-      });      
-
-      const data = await res.json();
-      if (res.ok) {
+      });
+      
+      const data = await response.json();
+      if (response.ok) {
+      
         setStatus("Message sent!");
         setFormData({ name: "", email: "", message: "" });
       } else {
